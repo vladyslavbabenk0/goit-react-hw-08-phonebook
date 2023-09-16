@@ -1,0 +1,26 @@
+.authNavContainer {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  background-image: #6609e0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: #000000;
+  transform: translateY(-2px);
+}

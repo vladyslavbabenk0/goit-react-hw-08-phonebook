@@ -1,19 +1,50 @@
-.filter {
-  margin-bottom: 15px;
+.contactLabel {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.filterInput {
-  font-family: Calluna;
-  margin-left: 20px;
-  border-width: 1px;
-  border-color: rgb(13, 13, 12);
-  font-size: 18px;
-  margin-top: 20px;
-  border-radius: 99px;
+.contactInput {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  outline: transparent;
 }
 
-.filterInput:focus,
-.filterInput:hover,
-.filterInput:active {
-  outline-color: black;
+.loader,
+.contactsTitle,
+.phonebookTitle {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  font-weight: 500;
+  color: #333; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+body {
+  background: linear-gradient(270deg, #f2f2f2, #c7c7c7);
+  background-size: 400% 400%;
+  animation: animatedBackground 15s ease infinite;
 }

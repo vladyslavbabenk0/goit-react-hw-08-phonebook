@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.userMenuContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.userName {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.logOutBtn {
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #f7f7f7;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.logOutBtn:hover,
+.logOutBtn:focus {
+  background-color: #d1c3c3;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}

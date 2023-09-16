@@ -1,59 +1,64 @@
-.label {
-  margin-bottom: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form {
-  width: 390px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  padding: 20px;
-  border-radius: 99px;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-.inputName {
-  margin-left: 28px;
-  border-width: 1px;
-  font-size: 18px;
-  border-radius: 20px;
+.formLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  transition: background-color 0.3s ease;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid rgba(255, 255, 255, 0.543);
 }
 
-.inputNumber {
-  composes: inputName;
-  margin-left: 10px;
-  border-radius: 99px;
-}
-
-.inputName:focus,
-.inputName:hover,
-.inputName:active {
-  outline-color: rgb(0, 128, 255);
-}
-
-.buttonAdd {
-  width: 300px;
-  height: 40px;
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-size: 18px;
-  font-family: 'Calluna', sans-serif;
+.formInput {
+  flex: 1;
+  font-size: 1rem;
   font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
-  background-color: #6609e0;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-  margin-top: 10px;
+  color: #333;
+  width: 100%;
 }
 
-.buttonAdd:hover,
-.buttonAdd:focus {
-  background-color: #0b0b0b;
-  opacity: 20%;
+.addContactBtn {
+  background-color: #6609e0;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 1rem;
+  width: 50%;
+  max-width: 500px;
+}
+
+.addContactBtn:hover,
+.addContactBtn:focus {
+  background-color: #d6d2d2;
 }
