@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.8ab1f09a.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.b7223bf1.js",
+    "static/js/266.91cb0f65.chunk.js": "/goit-react-hw-08-phonebook/static/js/266.91cb0f65.chunk.js",
+    "static/css/40.0943aa93.chunk.css": "/goit-react-hw-08-phonebook/static/css/40.0943aa93.chunk.css",
+    "static/js/40.1323c1a3.chunk.js": "/goit-react-hw-08-phonebook/static/js/40.1323c1a3.chunk.js",
+    "static/css/635.35c5b26e.chunk.css": "/goit-react-hw-08-phonebook/static/css/635.35c5b26e.chunk.css",
+    "static/js/635.2925c228.chunk.js": "/goit-react-hw-08-phonebook/static/js/635.2925c228.chunk.js",
+    "static/css/477.a8f4bcfc.chunk.css": "/goit-react-hw-08-phonebook/static/css/477.a8f4bcfc.chunk.css",
+    "static/js/477.0e65c30b.chunk.js": "/goit-react-hw-08-phonebook/static/js/477.0e65c30b.chunk.js",
+    "static/media/bg.png": "/goit-react-hw-08-phonebook/static/media/bg.60aced203cc83e86e0ab.png",
+    "index.html": "/goit-react-hw-08-phonebook/index.html",
+    "main.8ab1f09a.css.map": "/goit-react-hw-08-phonebook/static/css/main.8ab1f09a.css.map",
+    "main.b7223bf1.js.map": "/goit-react-hw-08-phonebook/static/js/main.b7223bf1.js.map",
+    "266.91cb0f65.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/266.91cb0f65.chunk.js.map",
+    "40.0943aa93.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/40.0943aa93.chunk.css.map",
+    "40.1323c1a3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/40.1323c1a3.chunk.js.map",
+    "635.35c5b26e.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/635.35c5b26e.chunk.css.map",
+    "635.2925c228.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/635.2925c228.chunk.js.map",
+    "477.a8f4bcfc.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/477.a8f4bcfc.chunk.css.map",
+    "477.0e65c30b.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/477.0e65c30b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ab1f09a.css",
+    "static/js/main.b7223bf1.js"
+  ]
+}
